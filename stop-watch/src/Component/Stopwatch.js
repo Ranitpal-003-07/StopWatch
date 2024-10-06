@@ -10,7 +10,6 @@ const [time , setTime]=useState(0);
   
   let timeHandler=useRef()
 
-
   const timeInc=()=>{
     timeHandler.current=setInterval(()=>{
       setTime(prevTime => prevTime+1)
